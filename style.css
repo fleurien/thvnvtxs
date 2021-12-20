@@ -1,0 +1,63 @@
+/* GENERAL STYLES */
+
+body{
+    margin:0;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 600px){
+    body{
+        margin:0;
+        display:flex;
+        flex-direction: column;
+        font-family:Helvetica, sans-serif;
+        font-weight:bold;
+    }
+
+    h1{
+        font-size:150pt;
+        overflow-wrap:break-word;
+        width:100vw;
+        margin:-30px;
+    }
+
+    img {
+        width:100vw;
+    }
+
+    #idontwanttomakeadivherebutanyway {
+        height:100vh;
+    }
+
+    p{
+        height:50vh;
+        padding:10vw;
+        margin-top:40vh;
+    }
+
+    img{
+        display:none;
+    }
+
+    .button{
+        display:none;
+    }
+
+    ul{
+        list-style: none;
+        height:fit-content;
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        align-items:flex-end;
+    }
+
+    ul a{
+        text-decoration: none;
+    }
+
+    ul a:visited{
+        color:blue;
+    }
+}
